@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(22, 22, 22);
+}
+
+h1, h2 {
+    color: #ffffff;
+}
+.banner {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    color: #ffffff;
+}
+
+.banner img {
+    width: 100%;
+    display: block;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    z-index: 10;
+}
