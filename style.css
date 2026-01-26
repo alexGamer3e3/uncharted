@@ -1,0 +1,168 @@
+body {
+    background-color: rgb(22, 22, 22);
+    font-family: 'Cinzel', serif;
+    margin: 0;
+}
+
+nav {
+    position: fixed;
+}
+
+nav li{
+  color: #000;
+}
+
+nav a {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #00d9ff;
+}
+
+h1, h2 {
+    color: #ffffff;
+}
+.banner {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    color: #ffffff;
+}
+
+.banner img {
+    width: 100%;
+    display: block;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    z-index: 10;
+    font-family: 'Cinzel', serif;
+}
+
+.carousel-text {
+ text-align: center;
+}
+
+footer a {
+ text-decoration: none;
+ color: rgb(0, 204, 255);
+}
+a:hover {
+ text-decoration: underline;
+ color: white;
+}
+
+section.final {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+section textarea {
+    width: 50%;
+    height: 150px;
+    padding: 5px;
+    font-size: 16px;
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+section button {
+    background-color: #00d9ff;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+section button:hover {
+    background-color: #e0e0e0;
+}
+
+section h1{
+    color: #ffffff;
+    text-align: center;
+}
+
+section video {
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+    
+}
+
+h2  {
+    text-align: center;
+}
+
+div {
+    border-radius: 10px;
+}
+#carouselExampleIndicators {
+  max-width: 1220px;
+  margin: 0 auto; /* centraliza */
+}
+
+#carouselExampleIndicators .carousel-item img {
+  object-fit: cover;
+}
+
+.video-container {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid #001e23;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+    width: fit-content;
+}
+
+ .layout {
+    display: flex;              /* coloca lado a lado */
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;                  /* espaço entre vídeo e comentários */
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
+  .video-area video {
+    width: 600px;               /* garante que o vídeo não ocupe tudo */
+    border: 3px solid black;    /* opcional */
+    display: block;
+  }
+
+  .comentarios {
+    width: 300px;               /* força a ficar ao lado */
+    border: 2px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    background: #f9f9f9;
+  }
+
+  .comentarios textarea {
+    width: 100%;
+    height: 120px;
+    resize: none;
+  }
+
+  .comentarios button {
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+  }
