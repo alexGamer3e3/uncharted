@@ -4,6 +4,99 @@ body {
     margin: 0;
 }
 
+h1, h2 {
+    color: #ffffff;
+}
+.banner {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    color: #ffffff;
+}
+
+.banner img {
+    width: 100%;
+    display: block;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    z-index: 10;
+    font-family: 'Cinzel', serif;
+}
+
+.carousel-text {
+ text-align: center;
+}
+
+footer a {
+ text-decoration: none;
+ color: rgb(0, 204, 255);
+}
+a:hover {
+ text-decoration: underline;
+ color: white;
+}
+
+section.final {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+section textarea {
+    width: 50%;
+    height: 150px;
+    padding: 5px;
+    font-size: 16px;
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+section button {
+    background-color: #00d9ff;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+section button:hover {
+    background-color: #e0e0e0;
+}
+
+section h1{
+    color: #ffffff;
+    text-align: center;
+}
+
+section video {
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+    
+}
+
+h2  {
+    text-align: center;
+}
+
+
+body {
+    background-color: rgb(22, 22, 22);
+    font-family: 'Cinzel', serif;
+    margin: 0;
+}
+
 nav {
     position: fixed;
 }
